@@ -13,9 +13,47 @@
 }
 .modal {
   width: 330px;
-  height: 400px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  padding: 30px 10px;
   /* position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */
+}
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: black;
+  margin-top: 20px;
+}
+.close {
+  right: 20px;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 400;
+  border: 1px solid beige;
+}
+.para {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.delete {
+  width: 90%;
+  margin: auto;
+  border: none;
+  background-color: rgb(236, 54, 54);
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 400;
+  border-radius: 5px;
 }
