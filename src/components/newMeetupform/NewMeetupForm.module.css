@@ -1,0 +1,42 @@
+.card {
+  width: 350px;
+  height: 500px;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+.form {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 5%;
+}
+.label {
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.input {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid;
+  resize: none;
+}
+.submit {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  /* color: white; */
+  padding: 10px;
+  margin-top: 25px;
+  background-color: greenyellow;
+  border: 1px solid greenyellow;
+}
