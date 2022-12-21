@@ -1,0 +1,30 @@
+.Meetup {
+  width: 330px;
+  height: auto;
+  border: 1px solid rgba(99, 99, 99, 0.6);
+  box-shadow: 2px 2px 3px rgba(99, 99, 99, 0.6);
+}
+.img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.content {
+  margin-top: 25px;
+  width: 90%;
+  margin: auto;
+  height: auto;
+  padding: 0 0 25px 0;
+}
+.content h3{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  color: black;
+}
+.content p{
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: black;
+}
