@@ -4,7 +4,7 @@ import AllMeetup from "./../src/pages/AllMeetup";
 import AddNewMeetup from "./pages/AddNewMeetup";
 import Favorites from "./../src/pages/Favorites";
 import NoPage from "./pages/NoPage";
-import MainUi from "./components/UI/mainNavigation/mainUI/MainUi";
+import MainUi from "./components/UI/mainUI/MainUi";
 const App = () => {
   return (
     <>

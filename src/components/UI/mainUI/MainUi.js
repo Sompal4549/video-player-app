@@ -1,5 +1,5 @@
 import React from "react";
-import MainNavigation from "../MainNavigation";
+import MainNavigation from "../mainNavigation/MainNavigation";
 import classes from "./MainUI.module.css";
 function MainUi(props) {
   return (
